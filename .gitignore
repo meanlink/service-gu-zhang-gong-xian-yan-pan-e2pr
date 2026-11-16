@@ -32,3 +32,6 @@ target/
 *.o
 *.obj
 .DS_Store
+
+# 测试与截图按 README 约定放在工程外的 test-artifacts 目录
+test-artifacts/

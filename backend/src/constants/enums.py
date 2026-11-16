@@ -8,3 +8,14 @@ class JobStatus(str, Enum):
     running = 'running'
     completed = 'completed'
     failed = 'failed'
+class CalibrationStatus(str, Enum):
+    draft = 'draft'
+    published = 'published'
+    revoked = 'revoked'
+class CredentialStatus(str, Enum):
+    active = 'active'
+    revoked = 'revoked'
+class FollowStatus(str, Enum):
+    certain = 'certain'
+    pending = 'pending'
+    excluded = 'excluded'
